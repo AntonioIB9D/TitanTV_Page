@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('./font/Raleway-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway_Italic';
+  src: url('./font/Lora-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@layer base {
+  html,
+  body {
+    font-family: Raleway;
+    color: #fefce4;
+    background-color: #050b14;
+    height: auto;
+  }
+}
+
+.dropEffect {
+  filter: drop-shadow(0 4px 10px rgba(255, 215, 0, 0.6));
+}
