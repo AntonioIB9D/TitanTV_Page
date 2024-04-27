@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar';
 
 export default function Layout() {
   return (
-    <div className="flex flex-col min-h-full gap-8 md:gap-4">
+    <div className="flex flex-col min-h-full gap-4">
       <header>
         <Navbar />
       </header>
