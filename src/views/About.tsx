@@ -27,7 +27,7 @@ export default function About() {
         </div>
         <div className="bg-[#181616] max-w-60 justify-self-center ">
           <div className="border-t-8 border-[#B009DA] mt-4">
-            <p className="p-4">De 9:30 a.m. - 1:30 p.m.</p>
+            <p className="p-4">Horario de 9:30 a.m. - 1:30 p.m.</p>
           </div>
         </div>
         <div className="bg-[#181616] max-w-60 justify-self-center">
