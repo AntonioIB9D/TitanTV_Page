@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div className="text-[#fffffe] font-bold flex flex-col gap-4 mt-10 md:mt-0">
+    <div className="text-[#fffffe] font-bold flex flex-col gap-4 mt-4 md:mt-0">
       <div className="flex justify-center">
         <h1 className=" text-2xl md:text-3xl">
           <span className="text-red-500">¿</span> Te{' '}

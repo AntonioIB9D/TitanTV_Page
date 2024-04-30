@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import ColorizeText from '../Helpers/Highlight';
 
 export default function Navbar() {
@@ -14,18 +14,46 @@ export default function Navbar() {
         </span>
       </div>
       <div className="flex md:justify-end items-center gap-4 text-slate-200">
-        <Link to="/" className="text-orange-500">
+        <NavLink
+          to="/"
+          className={({ isActive }) =>
+            isActive
+              ? 'text-orange-500 border-b-2 border-orange-500'
+              : 'text-orange-500'
+          }
+        >
           Home
-        </Link>
-        <Link to="/streaming" className="text-blue-500 ">
+        </NavLink>
+        <NavLink
+          to="/streaming"
+          className={({ isActive }) =>
+            isActive
+              ? 'text-blue-500 border-b-2 border-blue-500'
+              : 'text-blue-500'
+          }
+        >
           Streaming
-        </Link>
-        <Link to="/champs" className="text-yellow-500 ">
+        </NavLink>
+        <NavLink
+          to="/champs"
+          className={({ isActive }) =>
+            isActive
+              ? 'text-yellow-500 border-b-2 border-yellow-500'
+              : 'text-yellow-500 '
+          }
+        >
           Champs
-        </Link>
-        <Link to="/elo" className="text-green-500 ">
+        </NavLink>
+        <NavLink
+          to="/elo"
+          className={({ isActive }) =>
+            isActive
+              ? 'text-green-500 border-b-2 border-green-500'
+              : 'text-green-500 '
+          }
+        >
           Elo
-        </Link>
+        </NavLink>
       </div>
     </div>
   );
