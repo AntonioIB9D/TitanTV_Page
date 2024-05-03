@@ -24,7 +24,7 @@ export const data: dataProps[] = [
   },
   {
     nombre: 'DARIUS',
-    photo: '/Darius.jpg',
+    photo: '/Darius2.jpg',
     frase: 'La mano de Noxus',
     ad: 64,
     health: 652,

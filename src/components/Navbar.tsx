@@ -1,4 +1,4 @@
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import ColorizeText from '../Helpers/Highlight';
 
 export default function Navbar() {
